@@ -23,7 +23,7 @@ export function Header() {
   const navItems = [
     { name: 'Beranda', href: '/' },
     { name: 'Tentang', href: '/about' },
-    { name: 'Portfolio', href: '/portfolio' },
+    { name: 'Project', href: '/portfolio' },
     { name: 'Store', href: '/store' },
     { name: 'Artikel', href: '/blog' },
   ];

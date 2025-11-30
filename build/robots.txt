@@ -1,0 +1,44 @@
+# Robots.txt for Lapak Android
+# https://lapakandroid.my.id
+
+# Allow all search engines to crawl the entire site
+User-agent: *
+Allow: /
+
+# Disallow admin pages (private area)
+Disallow: /admin/
+Disallow: /login
+
+# Disallow checkout page (no need to index)
+Disallow: /checkout
+
+# Block search engines from indexing API endpoints
+Disallow: /api/
+
+# Allow images to be indexed
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.webp$
+Allow: /*.gif$
+Allow: /*.svg$
+
+# Block specific bots that consume too many resources (optional)
+# User-agent: AhrefsBot
+# Crawl-delay: 10
+
+# User-agent: SemrushBot
+# Crawl-delay: 10
+
+# Google Search Console specific
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Bing Search specific
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+# Sitemap location (update after creating sitemap.xml)
+Sitemap: https://lapakandroid.my.id/sitemap.xml

@@ -8,7 +8,7 @@ export function Footer() {
   const quickLinks = [
     { name: 'Beranda', href: '/' },
     { name: 'Tentang', href: '/about' },
-    { name: 'Portfolio', href: '/portfolio' },
+    { name: 'Project', href: '/portfolio' },
     { name: 'Artikel', href: '/blog' },
     { name: 'Kontak', href: '/#contact' },
   ];

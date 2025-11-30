@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/fatiahsa/public_html/lapakandroid.my.id
-    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH
